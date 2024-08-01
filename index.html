@@ -1,295 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- ========== Reset Css ========= -->
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <!-- ========== Styles CSS ========= -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <!-- ========== font Public Sans ========= -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;800&display=swap"
-      rel="stylesheet"
-    />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- ========== Reset Css ========= -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <!-- ========== Styles CSS ========= -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- ========== font Public Sans ========= -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;800&display=swap"
+            rel="stylesheet"
+        />
 
-    <!-- ========== font Poppins ========= -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Public+Sans:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
+        <!-- ========== font Poppins ========= -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Public+Sans:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
 
-    <!-- ========== Sonsie One ========= -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap"
-      rel="stylesheet"
-    />
+        <!-- ========== Sonsie One ========= -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap"
+            rel="stylesheet"
+        />
 
-    <!-- ==========  ========= -->
+        <!-- ==========  ========= -->
 
-    <!-- ========== Favicon ========= -->
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="./assets/favicon/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="./assets/favicon/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="./assets/favicon/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./assets/favicon/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="./assets/favicon/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="./assets/favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="./assets/favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./assets/favicon/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/favicon/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="./assets/favicon/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="./assets/favicon/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./assets/favicon/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta
-      name="msapplication-TileImage"
-      content="./assets/favicon/ms-icon-144x144.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
+        <!-- ========== Favicon ========= -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
 
-    <title>MODULARS</title>
-  </head>
-  <body>
-    <!-- =========== Header ============= -->
-    <header class="header">
-      <div class="container">
-        <!-- header-top -->
-        <div class="header-top">
-          <div class="logo">
-            <a href="#!"><img src="./assets/img/logo.svg" alt="MODULARS" /></a>
-          </div>
-          <!-- navbar -->
-          <div class="header-nav__row">
-            <nav class="navbar">
-              <ul class="navbar__list">
-                <li class="navbar__item">
-                  <a href="#!" class="navbar__link navbar__link--active">
-                    Home
-                  </a>
-                </li>
-                <li class="navbar__item">
-                  <a href="#!" class="navbar__link navbar__link--active"
-                    >About</a
-                  >
-                </li>
-                <li class="navbar__item">
-                  <a href="#!" class="navbar__link navbar__link--active"
-                    >Blog</a
-                  >
-                </li>
-                <li class="navbar__item">
-                  <a href="#!" class="navbar__link navbar__link--active"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
-            </nav>
-            <div class="action">
-              <a href="#!" class="action__btn btn">Sign Up</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- =========== Hero ============= -->
-        <section class="hero">
-          <div class="hero__inner">
-            <section class="hero__content">
-              <h1 class="hero__heading">We’re a creative design agency.</h1>
-              <p class="hero__desc desc-level-1">
-                A brilliant, modular agency template for startup’s build yours
-                toady.
-              </p>
-              <div class="hero__row">
-                <a href="#!" class="btn">Get in touch</a>
-                <div class="hero__watch">
-                  <a href="#!"
-                    ><img
-                      src="./assets/icon/ellipse play.svg"
-                      alt="ellipse"
-                      class="hero__ellipse"
-                  /></a>
-                  <a href="#!"
-                    ><img
-                      src="./assets/icon/play button.svg"
-                      alt="play"
-                      class="hero__play"
-                  /></a>
-                  <a href="#!" class="hero__watch-text">Watch Video</a>
+        <title>MODULARS</title>
+    </head>
+    <body>
+        <!-- =========== Header ============= -->
+        <header class="header">
+            <div class="container">
+                <!-- header-top -->
+                <div class="header-top">
+                    <div class="logo">
+                        <a href="#!"
+                            ><img src="./assets/img/logo.svg" alt="MODULARS"
+                        /></a>
+                    </div>
+                    <!-- navbar -->
+                    <div class="header-nav__row">
+                        <nav class="navbar">
+                            <ul class="navbar__list">
+                                <li class="navbar__item">
+                                    <a
+                                        href="#!"
+                                        class="navbar__link navbar__link--active"
+                                    >
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a
+                                        href="#!"
+                                        class="navbar__link navbar__link--active"
+                                        >About</a
+                                    >
+                                </li>
+                                <li class="navbar__item">
+                                    <a
+                                        href="#!"
+                                        class="navbar__link navbar__link--active"
+                                        >Blog</a
+                                    >
+                                </li>
+                                <li class="navbar__item">
+                                    <a
+                                        href="#!"
+                                        class="navbar__link navbar__link--active"
+                                        >Contact</a
+                                    >
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="action">
+                            <a href="#!" class="action__btn btn">Sign Up</a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </section>
-            <div class="hero__media">
-              <figure class="hero__images">
-                <img
-                  src="./assets/img/about-02.jpg"
-                  alt="hero-01"
-                  class="hero__img"
-                />
-                <img
-                  src="./assets/img/Service-01.jpg"
-                  alt="hero-02"
-                  class="hero__img"
-                />
-                <img
-                  src="./assets/img/hero-03.jpg"
-                  alt="hero-03"
-                  class="hero__img"
-                />
-              </figure>
-              <div class="hero__icon">
-                <svg
-                  class="vector"
-                  width="547"
-                  height="363"
-                  viewBox="0 0 547 363"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M546 362.016C512 363.516 448.5 346.616 466.5 267.016C489 167.516 483 164.516 341.5 146.516C200 128.516 169.5 66.5002 199.5 24.016C224.753 -11.7445 323 -14.4839 311.5 78.0161C300 170.516 91.5 202.516 1 49.5162"
-                    stroke="url(#paint0_linear_0_317)"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear_0_317"
-                      x1="-103"
-                      y1="-56.0001"
-                      x2="486"
-                      y2="313"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop />
-                      <stop offset="0.553176" stop-color="white" />
-                      <stop offset="1" stop-opacity="0" />
-                    </linearGradient>
-                  </defs>
-                </svg>
 
-                <img
-                  src="./assets/icon/extra avstract.png"
-                  alt="extra"
-                  class="extra"
-                />
+                <!-- =========== Hero ============= -->
+                <section class="hero">
+                    <div class="hero__inner">
+                        <section class="hero__content">
+                            <h1 class="hero__heading">
+                                We’re a creative design agency.
+                            </h1>
+                            <p class="hero__desc desc-level-1">
+                                A brilliant, modular agency template for
+                                startup’s build yours toady.
+                            </p>
+                            <div class="hero__row">
+                                <a href="#!" class="btn">Get in touch</a>
+                                <div class="hero__watch">
+                                    <a href="#!"
+                                        ><img
+                                            src="./assets/icon/ellipse play.svg"
+                                            alt="ellipse"
+                                            class="hero__ellipse"
+                                    /></a>
+                                    <a href="#!"
+                                        ><img
+                                            src="./assets/icon/play button.svg"
+                                            alt="play"
+                                            class="hero__play"
+                                    /></a>
+                                    <a href="#!" class="hero__watch-text"
+                                        >Watch Video</a
+                                    >
+                                </div>
+                            </div>
+                        </section>
+                        <div class="hero__media">
+                            <figure class="hero__images">
+                                <img
+                                    src="./assets/img/about-02.jpg"
+                                    alt="hero-01"
+                                    class="hero__img"
+                                />
+                                <img
+                                    src="./assets/img/Service-01.jpg"
+                                    alt="hero-02"
+                                    class="hero__img"
+                                />
+                                <img
+                                    src="./assets/img/hero-03.jpg"
+                                    alt="hero-03"
+                                    class="hero__img"
+                                />
+                            </figure>
+                            <div class="hero__icon">
+                                <svg
+                                    class="vector"
+                                    width="547"
+                                    height="363"
+                                    viewBox="0 0 547 363"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M546 362.016C512 363.516 448.5 346.616 466.5 267.016C489 167.516 483 164.516 341.5 146.516C200 128.516 169.5 66.5002 199.5 24.016C224.753 -11.7445 323 -14.4839 311.5 78.0161C300 170.516 91.5 202.516 1 49.5162"
+                                        stroke="url(#paint0_linear_0_317)"
+                                    />
+                                    <defs>
+                                        <linearGradient
+                                            id="paint0_linear_0_317"
+                                            x1="-103"
+                                            y1="-56.0001"
+                                            x2="486"
+                                            y2="313"
+                                            gradientUnits="userSpaceOnUse"
+                                        >
+                                            <stop />
+                                            <stop
+                                                offset="0.553176"
+                                                stop-color="white"
+                                            />
+                                            <stop offset="1" stop-opacity="0" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
 
-                <svg
-                  class="vector__left"
-                  width="547"
-                  height="363"
-                  viewBox="0 0 547 363"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M546 362.016C512 363.516 448.5 346.616 466.5 267.016C489 167.516 483 164.516 341.5 146.516C200 128.516 169.5 66.5002 199.5 24.016C224.753 -11.7445 323 -14.4839 311.5 78.0161C300 170.516 91.5 202.516 1 49.5162"
-                    stroke="url(#paint0_linear_0_317)"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear_0_317"
-                      x1="-103"
-                      y1="-56.0001"
-                      x2="486"
-                      y2="313"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop />
-                      <stop offset="0.553176" stop-color="white" />
-                      <stop offset="1" stop-opacity="0" />
-                    </linearGradient>
-                  </defs>
-                </svg>
+                                <img
+                                    src="./assets/icon/extra avstract.png"
+                                    alt="extra"
+                                    class="extra"
+                                />
 
-                <img
-                  src="./assets/icon/extra avstract.png"
-                  alt="extra"
-                  class="extra__left"
-                />
-              </div>
+                                <svg
+                                    class="vector__left"
+                                    width="547"
+                                    height="363"
+                                    viewBox="0 0 547 363"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M546 362.016C512 363.516 448.5 346.616 466.5 267.016C489 167.516 483 164.516 341.5 146.516C200 128.516 169.5 66.5002 199.5 24.016C224.753 -11.7445 323 -14.4839 311.5 78.0161C300 170.516 91.5 202.516 1 49.5162"
+                                        stroke="url(#paint0_linear_0_317)"
+                                    />
+                                    <defs>
+                                        <linearGradient
+                                            id="paint0_linear_0_317"
+                                            x1="-103"
+                                            y1="-56.0001"
+                                            x2="486"
+                                            y2="313"
+                                            gradientUnits="userSpaceOnUse"
+                                        >
+                                            <stop />
+                                            <stop
+                                                offset="0.553176"
+                                                stop-color="white"
+                                            />
+                                            <stop offset="1" stop-opacity="0" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+
+                                <img
+                                    src="./assets/icon/extra avstract.png"
+                                    alt="extra"
+                                    class="extra__left"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-          </div>
-        </section>
-      </div>
-    </header>
-    <!-- ========= brand-logo ========== -->
-    <div class="brand">
-      <div class="container">
-        <div class="brand__inner">
-          <a href="#!"><span class="brand__logo google">Google</span></a>
-          <div class="brand__logo brand__row">
-            <a href="#!"><img src="./assets/icon/slack.png" alt="slack" /></a>
-            <a href="#!"><span class="slack">slack</span></a>
-          </div>
-          <div class="brand__logo brand__row">
-            <a href="#!"><img src="./assets/icon/Discord.png" alt="Discord" /></a>
-            <a href="#!"><span class="agworld">Agworld</span></a>
-          </div>
-          <span class="brand__logo riotinto">RioTinto</span>
-          <div class="brand__logo brand__row">
-            <a href="#!"><img src="./assets/icon/Heroku.png" alt="Heroku" /></a>
-            <a href="#!"><span class="heroku">HEROKU </span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+        </header>
+        <!-- ========= brand-logo ========== -->
+        <main style="height: 10000px">
+            <div class="brand">
+                <div class="container">
+                    <div class="brand__inner">
+                        <a href="#!" class="brand__link"
+                            ><span class="brand__logo google">Google</span></a
+                        >
+                        <div class="brand__logo brand__row">
+                            <a href="#!" class="brand__link"
+                                ><img src="./assets/icon/slack.png" alt="slack"
+                            /></a>
+                            <a href="#!" class="brand__link"
+                                ><span class="slack">slack</span></a
+                            >
+                        </div>
+                        <div class="brand__logo brand__row">
+                            <a href="#!" class="brand__link"
+                                ><img
+                                    src="./assets/icon/Discord.png"
+                                    alt="Discord"
+                            /></a>
+                            <a href="#!" class="brand__link"
+                                ><span class="agworld">Agworld</span></a
+                            >
+                        </div>
+                        <span class="brand__logo riotinto">RioTinto</span>
+                        <div class="brand__logo brand__row">
+                            <a href="#!" class="brand__link"
+                                ><img
+                                    src="./assets/icon/Heroku.png"
+                                    alt="Heroku"
+                            /></a>
+                            <a href="#!" class="brand__link"
+                                ><span class="heroku">HEROKU </span></a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ========= Services ========== -->
+            <section class="services">
+                <div class="container">
+                    <section class="services__header">
+                        <p class="section-desc services__desc">OUR SERVICES</p>
+                        <div class="services__header__row">
+                            <h2 class="section-heading">We offer a wide range of design services</h2>
+                            <div class="services__images">
+                                <svg
+                                class="services__icon services__icon-left"
+                                    width="22"
+                                    height="12"
+                                    viewBox="0 0 22 12"
+                                    fill="currentcolor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M1 6.29412H21M21 6.29412L15.7059 1M21 6.29412L15.7059 11"
+                                        stroke="currentcolor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                                <svg
+                                    class="services__icon"
+                                    width="22"
+                                    height="12"
+                                    viewBox="0 0 22 12"
+                                    fill="currentcolor"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M1 6.29412H21M21 6.29412L15.7059 1M21 6.29412L15.7059 11"
+                                        stroke="currentcolor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="services__list"></div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
